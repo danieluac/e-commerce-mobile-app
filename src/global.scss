@@ -24,3 +24,22 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+ion-thumbnail {
+    height:100px !important;
+    width: 350px !important;
+}
+.bg-bl-light {
+    background-color: rgb(47,48,105);
+    color : white;
+}
+.bg-blue-light {
+    background-color: rgb(47,48,105);
+    color : white;
+    border-radius: 2px;
+    height: 40px !important;
+    width: 100% !important;
+}
+ion-card {
+    border-radius: 0px !important;
+  }

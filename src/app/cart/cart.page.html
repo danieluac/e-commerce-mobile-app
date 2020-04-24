@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>Seu carrinho</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+
+  <ion-list>
+    <ion-item *ngFor="let item of cartItem; let i = index" >
+      <ion-thumbnail item-left style="width: 60px !important;height: 60px !important;" >
+        <img [src]="item.produto.img" alt="">
+      </ion-thumbnail>
+      <p class="ion-padding">
+        <span style="font-weight: bold;" [innerHtml]="item.produto.title"></span><br>
+        <span [innerHTML]="item.quantidade+' x '+item.produto.price"></span>
+      </p>
+          <ion-button slot="end" color="danger" (click)="removeFromCart(item, i)">
+            <ion-icon name="trash"></ion-icon>
+          </ion-button>
+    </ion-item>
+  </ion-list>
+
+  <ion-grid>
+    <ion-card>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-2></ion-col>
+          <ion-col col-4>
+            <strong>TOTAL</strong>
+          </ion-col>
+          <ion-col col-3></ion-col>
+          <ion-col col-3>
+            <strong>{{total}}.00Kz</strong>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </ion-grid>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col >
+          <ion-button expand="full" fill="outline" color="danger" (click)="closeModal()">Back</ion-button>
+        </ion-col>
+        <ion-col>
+          <ion-button  expand="full" fill="outline" color="success" (click)="checkOut()">Finalizar</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>

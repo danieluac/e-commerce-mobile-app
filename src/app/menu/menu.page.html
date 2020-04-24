@@ -1,0 +1,32 @@
+
+
+<ion-menu contentId="menu-content" type="overlay">
+  <ion-header>
+    <ion-toolbar color="danger">  
+     <ion-buttons slot="start" >
+       <ion-button routerDirection="'root'" routerLink="/page/home">
+        <ion-icon name="home" ></ion-icon>
+       </ion-button>
+     </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-card  class="ion-no-margin no-border">
+      <img src="../../assets/img/banner1.jpg" alt="">
+      <div class="ion-padding">
+        <p>Procure e compre o que quiser</p>
+      </div>
+    </ion-card>
+    <ion-list>
+        <ion-item *ngFor="let cat of categorias" class="ion-text-wrap" (click)="openCategory(cat.nome)">
+          <ion-icon color="danger" slot="start" [name]="cat.icon"></ion-icon>
+          <p>
+            <span style="font-weight: bold;" [innerHtml]="cat.nome"></span><br>
+            <span>{{cat.description}}</span>
+          </p>
+        </ion-item>         
+    </ion-list>
+    
+  </ion-content>
+</ion-menu>
+<ion-router-outlet id="menu-content"></ion-router-outlet>

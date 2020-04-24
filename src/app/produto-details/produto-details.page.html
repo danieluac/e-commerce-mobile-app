@@ -1,0 +1,75 @@
+<app-menu></app-menu>
+
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{produto.title    }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-fab  vertical="top" horizontal="end" slot="fixed"  (click)="openCart()">
+    <ion-fab-button color="danger" >
+      <ion-icon name="cart"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+ 
+<ion-slides>
+  <ion-slide>
+    <img [src]="produto.img" alt="">
+  </ion-slide>
+</ion-slides>
+<ion-card-content>
+  <ion-card-title>
+    {{produto.title}}
+    <ion-chip color="danger">
+      <ion-label > {{ produto.categoria}}</ion-label>
+    </ion-chip>
+  </ion-card-title>
+  <p>{{produto.description.full}}</p>
+ 
+    <ion-button class="ion-margin-top " color="danger" expand="block" fill="outline" (click)="addToCard(produto)" >
+      <ion-icon name="basket" slot="start"></ion-icon>
+      <ion-label>Adicionar ao carrinho</ion-label>
+    </ion-button>
+</ion-card-content>
+
+
+  <ion-card-content>
+   <ion-item>
+    <ion-card-title>
+      Especificações
+    </ion-card-title>
+   </ion-item>
+   <ion-grid>
+    <ion-row>
+      <ion-col col-4>
+        Preço 
+      </ion-col>
+      <ion-col col-8>
+        {{ produto.price}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4>
+        Unidade 
+      </ion-col>
+      <ion-col col-8>
+        1
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4>
+        Categoria 
+      </ion-col>
+      <ion-col col-8>
+        {{ produto.categoria}}
+      </ion-col>
+    </ion-row>
+   </ion-grid>
+  
+
+  </ion-card-content>
+</ion-content>

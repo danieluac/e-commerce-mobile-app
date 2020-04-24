@@ -1,0 +1,28 @@
+
+ion-slide {
+    width: 100% !important;
+    height: 100vh !important;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.slide-one {
+    background-image: url("../../assets/img/slide0.jpg");
+    background-size: 100% 100vh;
+    
+}
+.slide-two {
+    background-color: white;
+    height: 100vh;
+}
+.slide-two >
+h2,
+.slide-two > h3 {
+    color: rgb(240, 65, 65) !important;
+    font-weight: bolder;
+}
+.slide-three {
+    background-image: url("../../assets/img/market-slide1.jpg");
+    background-size: 100% 100vh;
+}

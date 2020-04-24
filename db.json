@@ -1,0 +1,178 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "title": "Show place Circus",
+      "img": "http://192.168.43.10/__Asset/img//circus.png",
+      "price" : "1200,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 2,
+      "title": "Controller de play Station",
+      "img": "http://192.168.43.10/__Asset/img//game.png",
+      "price" : "1000,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 3,
+      "title": "CapeCake",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 4,
+      "title": "CapeCakeCasa",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 5,
+      "title": "CapeCakeHouse",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 6,
+      "title": "Bolo cazeiro",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 7,
+      "title": "Fruta do mato",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 8,
+      "title": "CapeCake",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 9,
+      "title": "CapeCake",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 10,
+      "title": "CapeCake",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 11,
+      "title": "CapeCake",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 12,
+      "title": "Gelado de Mukua",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "roupas"
+    },
+    {
+      "id": 13,
+      "title": "Tinta cazeira",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "calçados"
+    },
+    {
+      "id": 14,
+      "title": "Feijao",
+      "img": "http://192.168.43.10/__Asset/img//cake.png",
+      "price" : "500,00kz",
+      "description" : {
+        "short" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto",
+        "full" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, pquisquam expedita ipsa iure ratione porro autem inventore eos! Aliquid?"
+      },
+      "categoria" : "acessorios"
+    }
+  ],
+  "categorias": [
+    {
+      "id" : 1,
+      "nome" : "roupas",
+      "description" : "roupas para homens e mulheres",
+      "icon" : "shirt"
+    },
+    {
+      "id" : 2,
+      "nome" : "calçados",
+      "description" : "Calçados para homens e mulheres",
+      "icon" : "cart"
+    },
+    {
+      "id" : 3,
+      "nome" : "acessorios",
+      "description" : "Acessorios para homens e mulheres",
+      "icon" : "bookmark"
+    }
+  ]
+}

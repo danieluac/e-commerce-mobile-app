@@ -1,4 +1,17 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
+
+ion-card {
+  margin: 0px !important;
+  border-radius: 0px !important;
+}
+img{
+  width: 100% !important;
+  margin: 0px !important;
+}
+.img-banner{
+  width: 100% !important;
+  height: 50px;
+  padding-top: 0px;
+}
+ion-item p {
+  padding : 5px;
 }
